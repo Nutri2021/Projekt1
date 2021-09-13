@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be beYOUtiful</title>
+    <style>
+
+body{
+    background-color:lightgray; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Flexbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+   margin: 20px auto;
+}
+.untenflex{
+    flex:1;
+    text-align: center;
+}
+.bg-pink{
+    background-color: pink;
+}
+.oben-linie1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+        margin: 25px;
+        padding: 25px;
+        text-align: start;
+        background-color: rgb(66, 66, 66);
+}
+.oben-linie1 .oben-linie2{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.white{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+#work{
+    width: 50%;
+    margin: 5%;
+
+}
+.button{
+    background-color:dimgray;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    width:30%
+}
+
+        </style> 
+        </head>
+        <body>
+            <div class="oben-linie1">
+                <div class="oben-linie2">
+                    Nutrinetwork
+                </div>
+                <div class="oben-linie2">
+                    Workshop
+                </div>
+                <div class="oben-linie2">
+                    Zykluswissen
+                </div>
+                <div class="oben-linie2">
+                    Kontakt
+                </div>
+            </div>
+            <p>
+                #live your beauty. love yourself. reclaim health.
+            </p>
+            <div class="bg-pink">
+                <div class="Flexbox"><!--Gsamte Flexbox-->
+                    <div class="untenflex">
+                        <img id="work" src="../../bilder/work.jpg" alt="">
+                        <button class="button">read more</button>
+                    </div>
+                    <div class="untenflex">
+                            <h1>
+                                Be beYOUtiful 
+                                - 4 Wochen Workshop
+                            </h1>
+                            <button class="button">
+                                hier gehts zur 
+                                Buchung 
+                            </button>
+                        </div>
+                </div>
+            </div>                    
+            <div>Kontaktiere uns </div>
+        
+            <form>
+                <label 
+                for="newsletter-email">Deine E-Mail:
+                </label>
+                <input type="text"name="" id=""> <!--Kein schliessendes Tag Element-->
+                    <input type="submit" value="senden">
+                    <label 
+                for="newsletter-email">Deine Handynummer:
+                </label>
+                <input type="text"name="" id=""> <!--Kein schliessendes Tag Element-->
+                    <br><br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Schreib uns was..."></textarea>
+                    <br>
+                    <br>
+                    <input type="checkbox">
+                    <input type="email" placeholder="Newsletter abonnieren">
+                    <br>
+                    <br>
+                    <input type="checkbox">
+                    <input type="number" placeholder="Bitte ruft mich an">
+                    <br><br>
+                    <br><br><br>
+            </form>
+
+       
+            
+        </body>
+</html>
+
+
